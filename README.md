@@ -23,14 +23,14 @@ I initially faced `RequestDisallowedByAzure` errors in US/Europe regions due to 
 
 **Resource Group Proof:**
 ![Resource Group Screenshot](./screenshots/resource-group-success.png)
-*(Description: Azure CLI output showing the successful creation of the 'Mobasher-Cloud-Project' resource group.)*
+*(Description: Azure Portal view validating the successful creation of 'Mobasher-Cloud-Project' resource group via CLI.)*
 
 ### 2. Storage Account Provisioning
 I provisioned a **StorageV2 (General Purpose v2)** account with **LRS (Locally Redundant Storage)** to ensure cost-efficient data availability.
 
 **Storage Provisioning Proof:**
 ![Storage Account Screenshot](./screenshots/storage-account-succeeded.png)
-*(Description: JSON output from terminal confirming "provisioningState": "Succeeded".)*
+*(Description: Resource validation in Azure Portal confirming the storage account is active and provisioned with LRS redundancy.)*
 
 ---
 
